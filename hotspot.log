@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='6327' time_ms='1532685876033'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+21.0-b17-jvmg
+</release>
+<info>
+OpenJDK 64-Bit Server VM (21.0-b17-jvmg) for linux-amd64 JRE (1.7.0-internal-debug-yangyuan_2018_04_10_22_14-b00), built on Apr 10 2018 22:31:25 by &quot;yangyuan&quot; with gcc 4.8.4
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-Didea.launcher.port=7540 -Didea.launcher.bin.path=/home/yangyuan/idea-IU-141.3058.30/bin -Dfile.encoding=UTF-8 
+</args>
+<command>
+com.intellij.rt.execution.application.AppMain com.pingan.test.springbootdemo.yy.CommandWithFallbackViaDependency
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=21.0-b17-jvmg
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext:/usr/java/packages/lib/ext
+java.endorsed.dirs=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/endorsed
+sun.boot.library.path=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/amd64
+java.library.path=.::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre
+java.class.path=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/charsets.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/rt.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/resources.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/management-agent.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jce.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jsse.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/localedata.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/zipfs.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/dnsns.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/sunpkcs11.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/sunjce_provider.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/ext/sunec.jar:/home/yangyuan/IdeaProjects/java-hystrix/target/test-classes:/home/yangyuan/IdeaProjects/java-hystrix/target/classes:/home/yangyuan/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.4.2.RELEASE/spring-boot-starter-web-1.4.2.RELEASE.jar:/home/yangyuan/.m2/repository/org/springframework/boot/spring-boot-starter/1.4.2.RELEASE/spring-boot-starter-1.4.2.RELEASE.jar:/home/yangyuan/.m2/repository/org/springframework/boot/spring-boot/1.4.2.RELEASE/spring-boot-1.4.2.RELEASE.jar:/home/yangyuan/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.4.2.RELEASE/spring-boot-autoconfigure-1.4.2.RELEASE.jar:/home/yangyuan/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.4.2.RELEASE/spring-boot-starter-logging-1.4.2.RELEASE.jar:/home/yangyuan/.m2/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar:/home/yangyuan/.m2/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar:/home/yangyuan/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar:/home/yangyuan/.m2/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar
+sun.boot.class.path=/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/resources.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/rt.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/sunrsasign.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jsse.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/jce.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/lib/charsets.jar:/home/yangyuan/java-debug/jdk7/build/j2sdk-image/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+idea.launcher.port=7540
+idea.launcher.bin.path=/home/yangyuan/idea-IU-141.3058.30/bin
+file.encoding=UTF-8
+sun.java.command=com.intellij.rt.execution.application.AppMain com.pingan.test.springbootdemo.yy.CommandWithFallbackViaDependency
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='139859476219648'/>
+C1 Runtime statistics:
+ _resolve_invoke_virtual_cnt:     0
+ _resolve_invoke_opt_virtual_cnt: 25
+ _resolve_invoke_static_cnt:      36
+ _handle_wrong_method_cnt:        1
+ _ic_miss_cnt:                    0
+ _generic_arraycopy_cnt:          0
+ _generic_arraycopystub_cnt:      0
+ _byte_arraycopy_cnt:             0
+ _short_arraycopy_cnt:            0
+ _int_arraycopy_cnt:              0
+ _long_arraycopy_cnt:             0
+ _primitive_arraycopy_cnt:        0
+ _oop_arraycopy_cnt (C):          0
+ _oop_arraycopy_cnt (stub):       0
+ _arraycopy_slowcase_cnt:         0
+ _arraycopy_checkcast_cnt:        0
+ _arraycopy_checkcast_attempt_cnt:0
+ _new_type_array_slowcase_cnt:    0
+ _new_object_array_slowcase_cnt:  0
+ _new_instance_slowcase_cnt:      0
+ _new_multi_array_slowcase_cnt:   0
+ _monitorenter_slowcase_cnt:      0
+ _monitorexit_slowcase_cnt:       0
+ _patch_code_slowcase_cnt:        0
+ _throw_range_check_exception_count:            0:
+ _throw_index_exception_count:                  0:
+ _throw_div0_exception_count:                   0:
+ _throw_null_pointer_exception_count:           0:
+ _throw_class_cast_exception_count:             0:
+ _throw_incompatible_class_change_error_count:  0:
+ _throw_array_store_exception_count:            0:
+ _throw_count:                                  0:
+
+<statistics type='deoptimization'>
+Deoptimization traps recorded:
+     1 (100.0%) total
+           unreached/reinterpret/ifnonnull: 1 (100.0%)
+</statistics>
+<statistics type='nmethod'>
+Statistics for 2 native nmethods:
+ N. total size  = 2112
+ N. relocation  = 224
+ N. main code   = 1312
+Statistics for 52 bytecoded nmethods:
+ total in heap  = 189552
+ relocation     = 6912
+ constants      = 32
+ main code      = 66624
+ stub code      = 4240
+ oops           = 2536
+ scopes data    = 29672
+ scopes pcs     = 55808
+ dependencies   = 576
+ handler table  = 6312
+ nul chk table  = 1352
+Debug Data Chunks: 9339, shared 831+5052, non-SP&apos;s elided 12
+PcDesc Statistics:  154 queries, 11.87 comparisons per query
+  caches=52 queries=154/0, hits=0+4, tests=634+1194, adds=150
+</statistics>
+<statistics type='opto'>
+--- Compiler Statistics ---
+Methods seen: 323  Methods parsed: 323  Nodes created: 88630
+Blocks parsed: 1293  Blocks seen: 1380
+1361 original NULL checks - 1074 elided (78%); optimizer leaves 238,
+133 made implicit (55%)
+CCP: 52  constants found: 0
+Total frameslots = 496, Max frameslots = 32
+Inserted 0 spill loads, 0 spill stores, 0 mem-mem moves and 0 copies.
+Total load cost=      0, store cost =      0, mem-mem cost =  0.00, copy cost =     0.
+Adjusted spill cost =       0.
+Conservatively coalesced 266 copies, 0 pairs, 1661 post alloc.
+Used cisc instruction  111,  remained in register 817
+Average allocation trips 1.590909
+High Pressure Blocks = 0, Low Pressure Blocks = 0
+Nops added 0 bytes to total of 67354 bytes, for 0.00%
+Peephole: peephole rules applied: 0
+PhaseIdealLoop=249, sum _unique=247034
+</statistics>
+<statistics type='intrinsic'>
+Compiler intrinsic usage:
+    12 (34.3%) _min (worked)
+    20 (57.1%) _arraycopy (worked)
+     1 ( 2.9%) _indexOf (worked)
+     2 ( 5.7%) _equals (worked)
+    35 (100.0%) total (worked)
+</statistics>
+<statistics type='SharedRuntime'>
+   12 monitor enter slow
+    3 monitor exit slow
+    2 new instance requires GC
+   26 new array requires GC
+    0 inline cache miss in compiled
+    1 wrong method
+   36 unresolved static call site
+    0 unresolved virtual call site
+   25 unresolved opt virtual call site
+  944 slow partial subtype
+  627 byte array copies
+44951 short array copies
+   12 int array copies
+15221 long array copies
+AdapterHandlerTable: empty 136 longest 4 total 207 average 1.318471
+AdapterHandlerTable: lookups 12345 buckets 13145 equals 12144 hits 12138 compact 12137
+</statistics>
+<writer thread='139859289286400'/>
+<destroy_vm stamp='5.336'/>
+<tty_done stamp='6.119'/>
+</tty>
+<hotspot_log_done stamp='6.119'/>
+</hotspot_log>

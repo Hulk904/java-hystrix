@@ -61,7 +61,7 @@ public class HystrixCommand4CircuitBreakerTest extends HystrixCommand<String> {
 
     @Override
     protected String run() throws Exception {
-    	System.out.println("running run():" + name);
+    	//System.out.println("running run():" + name);
     	int num = Integer.valueOf(name);
     	if(num % 2 == 0 && num < 10) {	// 直接返回
     		return name;
@@ -81,7 +81,7 @@ public class HystrixCommand4CircuitBreakerTest extends HystrixCommand<String> {
 
     public static class UnitTest {
 
-//        @Test
+        @Test
         public void testSynchronous() throws IOException {
         	for(int i = 0; i < 50; i++) {
 	        	try {

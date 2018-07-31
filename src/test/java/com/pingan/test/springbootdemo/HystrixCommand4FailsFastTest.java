@@ -32,12 +32,12 @@ public class HystrixCommand4FailsFastTest extends HystrixCommand<String> {
 
     public static class UnitTest {
 
-//        @Test
+        @Test
         public void testSuccess() {
             assertEquals("success", new HystrixCommand4FailsFastTest(false).execute());
         }
 
-//        @Test
+        @Test
         public void testFailure() {
             try {
                 new HystrixCommand4FailsFastTest(true).execute();
